@@ -4,10 +4,11 @@ def line(array)
   if array.empty? 
     puts "The line is currently empty."
   else
-    print "The line is currently:"
+    queue_string = "The line is currently:"
     array.each_with_index do |person, index|
-      print " #{index + 1}. #{person}"
+      queue_string += " #{index + 1}. #{person}"
     end
+    puts queue_string
   end
 end 
 
