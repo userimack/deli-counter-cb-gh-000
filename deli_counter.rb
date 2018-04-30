@@ -2,4 +2,4 @@
 
 def line(array)
   array.each_with_index do |person, index|
-    puts 
+    print "The line is currently:"
